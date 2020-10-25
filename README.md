@@ -27,7 +27,7 @@ Inside the project folder run:
 
 - `npm i` - install dependencies
 - `npm run dev` - run app in development mode
-- As this app can be loaded only inside a frame single-spa, you have to run a `root-config` frame app and configure it to use the URL `http://localhost:4200/main.js`.
+- As this app can be loaded only inside a frame single-spa, you have to run a `micro-frontends-frame` frame app and configure it to use the URL `http://localhost:4200/main.js`.
 
 ## Deployment to Production
 
