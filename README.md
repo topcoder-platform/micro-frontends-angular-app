@@ -6,8 +6,8 @@ This is a [single-spa](https://single-spa.js.org/) example Angular microapp.
 
 ## Requirements
 
-- Node.js 8+
-- Npm 6+
+- node - v10.22.1
+- npm - v6.14.6
 - Angular CLI 10
 
 ## NPM Commands
