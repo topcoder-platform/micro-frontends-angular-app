@@ -4,7 +4,7 @@ const express = require("express");
 
 const app = express();
 
-app.use(
+app.use('/angular',
   express.static("./dist/micro-frontends-angular-app", {
     setHeaders: function setHeaders(res) {
       res.header("Access-Control-Allow-Origin", "*");
@@ -16,6 +16,10 @@ app.use(
     },
   })
 );
+
+app.get('/', function (req, res) {
+  res.send('alive')
+})
 
 const PORT = process.env.PORT || 4200;
 app.listen(PORT);
