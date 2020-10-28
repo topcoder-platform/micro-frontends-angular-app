@@ -1,12 +1,13 @@
 {
-  "name": "micro-frontends-angular-app",
+  "name": "@topcoder/micro-frontends-angular-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
     "dev": "ng s --project micro-frontends-angular-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false",
     "dev-https": "ng s --ssl  --project micro-frontends-angular-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false",
-    "build": "ng build micro-frontends-angular-app --prod --deploy-url http://localhost:4200/",
+    "build-local": "ng build micro-frontends-angular-app --prod --deploy-url http://localhost:4200/",
+    "build": "ng build micro-frontends-angular-app --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
