@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {MfContext, StoreManager} from 'tc-mfa-context';
 
 @Component({
   selector: 'tc-ex-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'micro-frontends-angular-app';
+  title = 'angular-mf-example';
+  constructor() {
+  }
+
 }

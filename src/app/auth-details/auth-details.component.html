@@ -1,0 +1,9 @@
+<div *ngIf="authState.profile; else notAuth">
+  Welcome
+  {{
+    authState.profile.firstName + ' ' + authState.profile.lastName
+  }} your user Id is {{authState.profile.userId}}
+</div>
+<ng-template #notAuth>
+  User is not authenticated
+</ng-template>

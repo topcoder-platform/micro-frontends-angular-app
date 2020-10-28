@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'micro-frontends-angular-app'`, () => {
+  it(`should have as title 'angular-mf-example'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('micro-frontends-angular-app');
+    expect(app.title).toEqual('angular-mf-example');
   });
 
   it('should render title', () => {
