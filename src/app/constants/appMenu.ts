@@ -14,8 +14,14 @@ const appMenu = [
     activeIcon: angularActiveIcon,
   },
   {
-    title: 'Home',
-    path: '/micro-frontends-angular-route/home',
+    title: 'Auth Demo',
+    path: '/micro-frontends-angular-route/auth',
+    icon: homeIcon,
+    activeIcon: homeActiveIcon,
+  },
+  {
+    title: 'No Sidebar Demo',
+    path: '/micro-frontends-angular-route/no-sidebar',
     icon: homeIcon,
     activeIcon: homeActiveIcon,
   },
