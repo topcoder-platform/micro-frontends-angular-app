@@ -6,6 +6,8 @@ declare module '@topcoder/micro-frontends-navbar-app' {
   export const getAuthUserProfile: any;
   export const disableSidebarForRoute: any;
   export const enableSidebarForRoute: any;
+  export const setNotificationPlatform: (platform: string) => void;
+  export const PLATFORM: { [key: string]: string };
 }
 
 declare module "*.svg" {
