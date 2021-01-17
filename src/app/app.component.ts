@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { setAppMenu } from '@topcoder/micro-frontends-navbar-app';
+import { setAppMenu, setNotificationPlatform, PLATFORM } from '@topcoder/micro-frontends-navbar-app';
 import appMenu from './constants/appMenu';
 
 @Component({
@@ -13,5 +13,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     // when app starts it should set its side menu structure
     setAppMenu('/micro-frontends-angular-route', appMenu);
+    setNotificationPlatform(PLATFORM.COMMUNITY);
   }
 }
