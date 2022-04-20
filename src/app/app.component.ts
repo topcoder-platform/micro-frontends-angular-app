@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { setAppMenu, setNotificationPlatform, PLATFORM } from '@topcoder/micro-frontends-navbar-app';
+import { setAppMenu, setNotificationPlatform, PLATFORM } from '@topcoder/mfe-header';
 import appMenu from './constants/appMenu';
 
 @Component({

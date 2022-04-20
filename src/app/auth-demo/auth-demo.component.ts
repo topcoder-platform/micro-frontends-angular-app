@@ -4,7 +4,7 @@ import {
   logout,
   getAuthUserTokens,
   getAuthUserProfile,
-} from '@topcoder/micro-frontends-navbar-app';
+} from '@topcoder/mfe-header';
 
 @Component({
   selector: 'tc-ex-auth-demo',

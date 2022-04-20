@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 import {
   disableSidebarForRoute,
   enableSidebarForRoute,
-} from '@topcoder/micro-frontends-navbar-app';
+} from '@topcoder/mfe-header';
 
 const COMPONENT_ROUTE = "/micro-frontends-angular-route/no-sidebar/*";
 

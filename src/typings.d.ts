@@ -1,4 +1,4 @@
-declare module '@topcoder/micro-frontends-navbar-app' {
+declare module '@topcoder/mfe-header' {
   export const login: any;
   export const logout: any;
   export const setAppMenu: any;
