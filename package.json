@@ -4,9 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "dev": "ng s --project micro-frontends-angular-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false",
-    "dev-https": "ng s --ssl  --project micro-frontends-angular-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false",
-    "build-local": "ng build micro-frontends-angular-app --prod --deploy-url http://localhost:4200/",
+    "dev": "ng s --project micro-frontends-angular-app --disable-host-check --port 4200 --host 0.0.0.0 --serve-path /angular/ --deploy-url http://localhost:4200/angular/  --live-reload false",
+    "dev-https": "ng s --ssl  --project micro-frontends-angular-app --disable-host-check --port 4200 --host 0.0.0.0 --serve-path /angular/ --deploy-url http://localhost:4200/angular/ --live-reload false",
+    "build-local": "ng build micro-frontends-angular-app --prod --deploy-url http://localhost:4200/angular/",
     "build": "ng build micro-frontends-angular-app --prod",
     "test": "ng test",
     "lint": "ng lint",
