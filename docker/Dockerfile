@@ -1,5 +1,5 @@
 # Use the base image with Node.js
-FROM node:10.22.1
+FROM node:10.24
 
 # Copy the current directory into the Docker image
 COPY . /micro-frontends-angular-app
